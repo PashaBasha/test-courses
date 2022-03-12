@@ -1,0 +1,124 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    border: 3px solid red;
+    padding: 30px;
+    margin: 20px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border: 3px solid violet;
+}
+.nav {
+    width: auto;
+    height: 60px;
+    background-color: slateblue;
+    margin: 150px 40px 10px 40px;
+}
+
+.flex-wrapper {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.section {
+    width: 70%;
+    margin-right: 30px;
+    background-color: cornflowerblue;
+    border: 3px solid grey;
+    padding-bottom: 20px;
+}
+
+.article {
+    width: auto;
+    height: 100px;
+    background-color: salmon;
+    margin: 10px;
+}
+.aside {
+    width: 30%;
+    height: auto;
+    background-color: chocolate;
+}
+
+.footer{
+    width: 100%;
+    min-height: 60px;
+    border:  3px solid slateblue;
+    background-color: thistle;
+} */
+
+.box {
+    width: 30%;
+    height: 100px;
+    background: red;
+    border: 3px solid black;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    height: 600px;
+    background-color: bisque;
+    /* justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch; */
+    /* flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    align-content: stretch; */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+/* #box1{
+    flex-grow: 1;
+}
+
+#box2{
+    flex-grow: 8;
+}
+
+#box3{
+    flex-grow: 1;
+}
+
+#box4{
+    flex-grow: 2;
+} */
+
+/* #box1 {
+    flex-shrink: 8;
+}
+
+#box3 {
+    flex-shrink:5;
+}
+
+#box4 {
+    flex-shrink: 1;
+} */
+
+#box1 {
+    align-self: flex-end;
+}
+
+
